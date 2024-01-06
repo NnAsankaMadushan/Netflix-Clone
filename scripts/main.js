@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: 'Movie 3', img: 'images/movie3.jpg' },
         { title: 'Movie 2', img: 'images/movie4.jpg' },
         { title: 'Movie 2', img: 'images/movie5.jpg' },
-        { title: 'Movie 2', img: 'images/movie4.jpg' },
         { title: 'Movie 2', img: 'images/movie6.jpg' },
         { title: 'Movie 2', img: 'images/movie7.jpg' },
         { title: 'Movie 2', img: 'images/movie8.jpg' },
@@ -20,6 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: 'Movie 2', img: 'images/movie14.jpg' },
         { title: 'Movie 2', img: 'images/movie15.jpg' },
         { title: 'Movie 2', img: 'images/movie16.jpg' },
+        { title: 'Movie 2', img: 'images/movie17.jpg' },
+        { title: 'Movie 2', img: 'images/movie18.jpg' },
+        { title: 'Movie 2', img: 'images/movie19.jpg' },
+        { title: 'Movie 2', img: 'images/movie20.jpg' },
         // Add more movies as needed
     ];
 
