@@ -12,7 +12,7 @@ body {
 
 body::before {
     content: "";
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(3, 1, 1, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -50,16 +50,19 @@ footer {
     background-color: #111;
     text-align: center;}
 .movie-card {
-        width: 200px;
-        margin: 10px;
-        cursor: pointer;
-        height:90%;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    height: auto; /* Adjust the height to your preference */
+    display: flex;
+    flex-direction: column;
     }
     
 .movie-card img {
     width: 100%;
     border-radius: 8px;
-   
+    height: 100%;
+    object-fit: cover;
 }
 .sign-in{
     background-color: #E50913;
@@ -68,7 +71,7 @@ footer {
     color: aliceblue;
     border-style: solid;
     border-width: 0.0625rem;
-    border-radius: 0.1875rem;
+    border-radius: 8px;
     content: '';
     border-color: rgba(0,0,0,0);
 }
